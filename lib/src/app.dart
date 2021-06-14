@@ -15,12 +15,10 @@ class MyApp extends StatelessWidget{
         //child: HomePage(),
         child: CountPage(),
       ), 
-      initialRoute: "otraPrueba",
-      routes: {
-        "CountPage" :(_)=> CountPage(),
-        "Prueba"    :(_)=> HomePage(),
-        "otraPrueba":(_)=>OtraPagina()
-      },
     );
+  }
+
+  void cosas (){
+    print('Xd');
   }
 }
