@@ -1,5 +1,6 @@
 import 'package:contador/src/pages/count_page.dart';
 import 'package:contador/src/pages/home_page.dart';
+import 'package:contador/src/pages/otra_page.dart';
 import 'package:flutter/material.dart';
 
 //import 'package:contador/src/pages/home_page.dart';
@@ -14,10 +15,11 @@ class MyApp extends StatelessWidget{
         //child: HomePage(),
         child: CountPage(),
       ), 
-      initialRoute: "Prueba",
+      initialRoute: "otraPrueba",
       routes: {
         "CountPage" :(_)=> CountPage(),
-        "Prueba"    :(_)=> HomePage()
+        "Prueba"    :(_)=> HomePage(),
+        "otraPrueba":(_)=>OtraPagina()
       },
     );
   }
