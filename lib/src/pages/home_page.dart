@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Otro titulo'),
+        title: Text('Pagina prueba cambiada'),
         centerTitle: true,
         backgroundColor: Color.fromARGB(45, 60, 55, 2),
       ),
