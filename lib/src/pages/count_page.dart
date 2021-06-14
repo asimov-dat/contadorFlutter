@@ -16,9 +16,9 @@ class _CountPageState extends State<CountPage>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Titulo'),
+        title: Text('Otro titulo'),
         centerTitle: true,
-        backgroundColor: Color(0xfe67e2cd),
+        backgroundColor: Colors.deepOrange,
       ),
       body: Center(
         child: Column(

@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget{
 
   final styleText = new TextStyle(fontSize: 30);
-  int count =0;
+  final int count =0;
 
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Titulo'),
+        title: Text('Otro titulo'),
         centerTitle: true,
-        backgroundColor: Color(0xfe67e2cd),
+        backgroundColor: Color.fromARGB(45, 60, 55, 2),
       ),
       body: Center(
         child: Column(
