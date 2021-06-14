@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       home: Center(
         //child: HomePage(),
-        child: CountPage(),
+        //child: CountPage(),
       ), 
     );
   }
